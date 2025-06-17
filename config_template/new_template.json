@@ -108,7 +108,27 @@
     { "tag": "direct", "type": "direct" },
     { "tag": "dns-out", "type": "dns" },
   ],
-  "route": {
+  "route":  {
+    "auto_detect_interface": true,
+    "final": "Proxy",
+    "rules": [
+      {
+        "inbound": ["tun-in", "mixed-in"],
+        "action": "sniff"
+      },
+      {
+        "type": "logical",
+        "mode": "or",
+        "rules":[
+          {
+            "port":53
+          },
+          {
+            "protocol": "dns"
+          }
+        ],
+        "action": "hijack-dns"
+      },
     "rules": [
       {
         "geosite": "category-ads-all",
