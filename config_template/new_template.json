@@ -109,7 +109,7 @@
     { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["🚀 节点选择", "🎯 全球直连"] },
     {
       "tag": "✅ 自动选择",
-      "type": "url-test",
+      "type": "urltest",
       "outbounds": ["HongKong", "TaiWan", "Japan", "Korea", "Singapore", "America", "Others"],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m"
