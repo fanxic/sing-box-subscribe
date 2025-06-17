@@ -163,133 +163,133 @@
         "tag": "fakeip-filter",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/fakeip-filter.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/fakeip-filter.srs"
       },
       {
         "tag": "ads",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/category-ads-all.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/category-ads-all.srs"
       },
       {
         "tag": "applications",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/applications.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/applications.srs"
       },
       {
         "tag": "private",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/private.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/private.srs"
       },
       {
         "tag": "microsoft-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/microsoft-cn.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/microsoft-cn.srs"
       },
       {
         "tag": "apple-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/apple-cn.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/apple-cn.srs"
       },
       {
         "tag": "google-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/google-cn.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/google-cn.srs"
       },
       {
         "tag": "games-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/games-cn.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/games-cn.srs"
       },
       {
         "tag": "netflix",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/netflix.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/netflix.srs"
       },
       {
         "tag": "disney",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/disney.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/disney.srs"
       },
       {
         "tag": "youtube",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/youtube.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/youtube.srs"
       },
       {
         "tag": "tiktok",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/tiktok.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/tiktok.srs"
       },
       {
         "tag": "bilibili",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/bilibili.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/bilibili.srs"
       },
       {
         "tag": "ai",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/ai.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/ai.srs"
       },
       {
         "tag": "networktest",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/networktest.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/networktest.srs"
       },
       {
         "tag": "proxy",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/proxy.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/proxy.srs"
       },
       {
         "tag": "cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/cn.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/cn.srs"
       },
       {
         "tag": "netflixip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/netflix-ip.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/netflix-ip.srs"
       },
       {
         "tag": "telegramip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/telegram-ip.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/telegram-ip.srs"
       },
       {
         "tag": "privateip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/private-ip.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/private-ip.srs"
       },
       {
         "tag": "cnip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/cn-ip.srs"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/cn-ip.srs"
       },
       {
         "tag": "emby",
         "type": "remote",
         "format": "source",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-box-ruleset/ruleset/emby.json"
+        "url": "https://testingcf.jsdelivr.net/gh/SagerNet/sing-box-ruleset/ruleset/emby.json"
       }
     ]
   }
