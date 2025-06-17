@@ -20,9 +20,9 @@
   "dns": {
     "servers": [
       {
-        "tag": "proxyDns", 
+        "tag": "proxyDns",
         "address": "tls://8.8.8.8",
-        "detour": "🚀 节点选择" 
+        "detour": "🚀 节点选择"
       },
       {
         "tag": "localDns",
@@ -78,19 +78,26 @@
     }
   ],
   "outbounds": [
-    { "tag": "🚀 节点选择", "type": "selector", "outbounds": [ "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"] },
-    { "tag": "📈 网络测试", "type": "selector", "outbounds": ["🎯 全球直连",  "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"] },
-    { "tag": "🤖 人工智能", "type": "selector", "outbounds": ["🚀 节点选择",  "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"] },
+    { 
+      "tag": "🚀 节点选择", 
+      "type": "selector", 
+      "outbounds": [ 
+        "✅ 自动选择",
+        "HongKong", "TaiWan", "Japan", "Korea", "Singapore", "America", "Others" 
+      ] 
+    },
+    { "tag": "📈 网络测试", "type": "selector", "outbounds": ["🎯 全球直连", "HongKong", "TaiWan", "Japan", "Korea", "Singapore", "America"] },
+    { "tag": "🤖 人工智能", "type": "selector", "outbounds": ["🚀 节点选择", "America", "Japan", "Singapore"] },
     { "tag": "🎮 游戏服务", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
     { "tag": "Ⓜ️ 微软服务", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
     { "tag": "🧱 谷歌服务", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
     { "tag": "🍎 苹果服务", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
-    { "tag": "🎥 奈飞视频", "type": "selector", "outbounds": ["🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"] },
-    { "tag": "📽️ 迪士尼+", "type": "selector", "outbounds": ["🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"] },
-    { "tag": "📹 油管视频", "type": "selector", "outbounds": ["🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"] },
-    { "tag": "🎵 TikTok", "type": "selector", "outbounds": ["🚀 节点选择", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"] },
-    { "tag": "❤️ Emby公益服","type": "selector","outbounds": ["🚀 节点选择", "🎯 全球直连", "🇭🇰 香港节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇸 美国节点"]},
-    { "tag": "📺 哔哩哔哩", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
+    { "tag": "🎥 奈飞视频", "type": "selector", "outbounds": ["🚀 节点选择", "HongKong", "TaiWan", "Japan", "Singapore"] },
+    { "tag": "📽️ 迪士尼+", "type": "selector", "outbounds": ["🚀 节点选择", "HongKong", "TaiWan", "Japan", "Singapore"] },
+    { "tag": "📹 油管视频", "type": "selector", "outbounds": ["🚀 节点选择", "HongKong", "TaiWan", "Japan"] },
+    { "tag": "🎵 TikTok", "type": "selector", "outbounds": ["🚀 节点选择", "Japan", "Singapore", "America"] },
+    { "tag": "❤️ Emby公益服","type": "selector","outbounds": ["🚀 节点选择", "🎯 全球直连", "HongKong", "Japan", "Singapore"]},
+    { "tag": "📺 哔哩哔哩", "type": "selector", "outbounds": ["🎯 全球直连", "HongKong", "TaiWan"] },
     { "tag": "🇨🇳 直连域名", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
     { "tag": "🇨🇳 直连 IP", "type": "selector", "outbounds": ["🎯 全球直连", "🚀 节点选择"] },
     { "tag": "🪜 代理域名", "type": "selector", "outbounds": ["🚀 节点选择", "🎯 全球直连"] },
@@ -100,6 +107,20 @@
     { "tag": "🛑 广告拦截", "type": "selector", "outbounds": ["block"] },
     { "tag": "🎯 全球直连", "type": "selector", "outbounds": ["direct"] },
     { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["🚀 节点选择", "🎯 全球直连"] },
+    {
+      "tag": "✅ 自动选择",
+      "type": "url-test",
+      "outbounds": ["HongKong", "TaiWan", "Japan", "Korea", "Singapore", "America", "Others"],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m"
+    },
+    { "tag": "HongKong", "type": "selector", "outbounds": ["{all}"], "filter": [{"action":"include","keywords":["🇭🇰", "HK", "hk", "香港", "港", "HongKong"]}] },
+    { "tag": "TaiWan", "type": "selector", "outbounds": ["{all}"], "filter": [{"action":"include","keywords":["🇹🇼", "TW", "tw", "台湾", "臺灣", "台", "Taiwan"]}] },
+    { "tag": "Singapore", "type": "selector", "outbounds": ["{all}"], "filter": [{"action":"include","keywords":["🇸🇬", "SG", "sg", "新加坡", "狮", "Singapore"]}] },
+    { "tag": "Japan", "type": "selector", "outbounds": ["{all}"], "filter": [{"action":"include","keywords":["🇯🇵", "JP", "jp", "日本", "日", "Japan"]}] },
+    { "tag": "America", "type": "selector", "outbounds": ["{all}"], "filter": [{"action":"include","keywords":["🇺🇸", "US", "us", "美国", "美", "United States"]}] },
+    { "tag": "Korea", "type": "selector", "outbounds": ["{all}"], "filter": [{"action":"include","keywords":["🇰🇷", "KR", "kr", "韩国", "韩", "Korea"]}] },
+    { "tag": "Others", "type": "selector", "outbounds": ["{all}"], "filter": [{"action":"exclude","keywords":["🇭🇰", "HK", "hk", "香港", "港", "🇹🇼", "TW", "tw", "台湾", "臺灣", "台", "�🇬", "SG", "sg", "新加坡", "狮", "🇯🇵", "JP", "jp", "日本", "日", "🇺🇸", "US", "us", "美国", "美", "🇰🇷", "KR", "kr", "韩国", "韩"]}] },
     { "tag": "block", "type": "block" },
     { "tag": "direct", "type": "direct" },
     { "tag": "dns-out", "type": "dns" }
@@ -291,3 +312,4 @@
     ]
   }
 }
+�
